@@ -1,0 +1,309 @@
+.white {
+  color: white;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+p, a {
+  font-family: "Karla";
+  line-height: 1.6;
+  color: #2b272f;
+  text-decoration: none;
+}
+
+a {
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  line-height: 1;
+  color: #2b272f;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+.white {
+  color: white;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.btn-white {
+  padding: 16px 40px;
+  border-style: solid;
+  outline: none;
+  border-width: 2px;
+  background-color: #ffffff00;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  z-index: 100;
+  border-color: white;
+  color: white;
+}
+
+.btn-white:hover {
+  background-color: white;
+  color: #2b272f;
+}
+
+.btn-dark {
+  padding: 16px 40px;
+  border-style: solid;
+  outline: none;
+  border-width: 2px;
+  background-color: #ffffff00;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  z-index: 100;
+  border-color: #2b272f;
+  color: #2b272f;
+}
+
+.btn-dark:hover {
+  background-color: #2b272f;
+  color: white;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.block {
+  display: block;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.justify-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.flex-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1440px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: auto;
+  padding: auto;
+}
+
+.header {
+  margin: 20px 0px;
+}
+
+.header a {
+  margin-left: 24px;
+  color: #837d87;
+}
+
+.header button {
+  margin-left: 24px;
+  padding: 10px 20px;
+}
+
+.hero {
+  background-color: #2d2640;
+}
+
+.hero__container {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.hero__ornament-1 {
+  top: 66px;
+  right: 0px;
+}
+
+.hero__content {
+  margin-right: 60px;
+}
+
+.hero__content hr {
+  margin-bottom: 70px;
+  width: 20%;
+}
+
+.hero__content__desc {
+  margin-top: 24px;
+}
+
+.hero__content__btn {
+  margin-top: 24px;
+}
+
+.hero__hero-image img {
+  width: 100%;
+}
+
+.hero-2 {
+  margin-top: -500px;
+}
+
+.feature {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.feature hr {
+  width: 10%;
+  border-width: 2px;
+  margin-bottom: 50px;
+}
+
+.features {
+  margin-top: 100px;
+}
+
+.features__item p {
+  margin-top: 20px;
+}
+
+.features .item-1 {
+  margin-right: 20px;
+}
+
+.features .item-2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.features .item-3 {
+  margin-left: 20px;
+}
+
+.contact {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.contact__box {
+  background-color: #2d2640;
+  padding: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__text h2 {
+  font-size: 3em;
+}
+
+.contact__cta {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #fafafa;
+}
+
+.footer hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer__social {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer__social__icon {
+  color: white;
+  border-radius: 100px;
+  padding: 10px;
+  border-width: 1px;
+  margin-left: 20px;
+  border-color: #ffffff;
+  background: #ffffff00;
+}
+
+.footer__social__icon:hover {
+  color: #837d87;
+  border-color: #837d87;
+}
+
+.footer__links p {
+  margin-bottom: 36px;
+  color: #837d87;
+  font-weight: 700;
+}
+
+.footer__links a {
+  display: block;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=style.css.map */

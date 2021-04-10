@@ -1,0 +1,145 @@
+@import 'colors'; 
+@import 'types';
+@import 'responsive';
+@import 'button';
+@import 'utils';
+ 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: auto;
+  padding: auto;
+}
+
+.header{
+  margin: 20px 0px;
+  a{
+    margin-left: 24px;
+    color: $darkGrayishViolet;
+  }
+  button{
+    margin-left: 24px;
+    padding: 10px 20px;
+  }
+}
+
+.hero{
+  background-color: $darkViolet;
+  &__container{
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+  &__ornament-1 {
+    top: 66px;
+    right:0px;
+  }  
+  &__content {
+    hr {
+      margin-bottom: 70px;
+      width: 20%;
+    }
+    margin-right: 60px;
+    &__desc {
+      margin-top: 24px;
+    }
+    &__btn {
+      margin-top: 24px;
+    }
+  }
+  &__hero-image {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.hero-2{
+  margin-top: -500px;
+}
+
+.feature {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  hr {
+    width: 10%;
+    border-width: 2px;
+    margin-bottom: 50px;
+  }
+  &s {
+    margin-top: 100px;
+    &__item {
+      p {
+        margin-top: 20px;
+      }
+    }
+    .item-1 {
+      margin-right: 20px;
+    }
+    .item-2 {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .item-3 {
+      margin-left: 20px;
+    }
+  }
+}
+
+.contact {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  &__box{
+    background-color: $darkViolet;
+    padding: 80px;
+    align-items: center;
+  }
+  &__text {
+    h2 {
+      font-size: $headingBig;
+    }
+  }
+   &__cta {
+    justify-content: flex-end;
+  }
+}
+
+.footer{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: $veryLightGray;
+  hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  &__social {
+    justify-content: flex-end;
+    &__icon {
+      color: white;
+      border-radius: 100px;
+      padding: 10px;
+      border-width: 1px;
+      margin-left: 20px;
+      border-color: #ffffff;
+      background: #ffffff00;
+      &:hover{
+        color: $darkGrayishViolet;
+        border-color: $darkGrayishViolet;
+      }
+    }
+  }
+  &__links{
+    p{
+      margin-bottom: 36px;
+      color: $darkGrayishViolet;
+      font-weight: $fontWeightBold;
+    }
+    a{
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+}

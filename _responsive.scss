@@ -1,0 +1,20 @@
+$mobileWidth: 375px;
+$tabletWidth: 768px;
+$desktopWidth: 1440px;
+$desktopSideMargin: 100px;
+$tabletSideMargin: 30px;
+$mobileSideMargin: 20px;
+
+
+@media screen and (min-width: $mobileWidth) {
+  h1 {
+    //font-size: $h1FontSizeMobile;
+  }
+  p {
+    //font-size: $pFontSizeMobile;
+  }
+}
+
+@media screen and (min-width: $tabletWidth){
+  
+}

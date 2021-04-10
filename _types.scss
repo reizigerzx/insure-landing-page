@@ -1,0 +1,40 @@
+$headingFont : 'DM Serif Display';
+$bodyFont : 'Karla';
+$fontWeightNormal : 400;
+$fontWeightBold: 700;
+$headingVeryBig: 4em;
+$headingBig : 3em;
+$headingSmall : 2em;
+$bodyFontSize : 1em;
+$bodyFontSizeMobile: 0.875em;
+$standardLineHeight: 1.6;
+
+p, a {
+  font-family: $bodyFont;
+  line-height: $standardLineHeight;
+  color: $veryDarkViolet;
+  text-decoration: none;
+}
+
+a{
+  font-weight: $fontWeightBold;
+}
+
+h1, h2, h3, h4 ,h5, h6 {
+  font-family: $headingFont;
+  font-weight: $fontWeightNormal;
+  line-height: 1;
+  color: $veryDarkViolet; 
+}
+
+h1 {
+  font-size: $headingVeryBig;
+}
+
+h2 {
+  font-size: $headingVeryBig;
+}
+
+h3 {
+  font-size: $headingSmall;
+}

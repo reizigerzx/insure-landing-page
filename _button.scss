@@ -1,0 +1,32 @@
+@import 'colors';
+
+@mixin btn {
+  padding : 16px 40px;
+  border-style: solid;
+  outline: none;
+  border-width: 2px;
+  background-color: #ffffff00;
+  font-weight: $fontWeightBold;
+  letter-spacing: 0.05em;
+  z-index: 100;
+}
+
+.btn-white {
+  @include btn;
+  border-color: white;
+  color: white;
+  &:hover{
+    background-color: white;
+    color: $veryDarkViolet;
+  }
+}
+
+.btn-dark {
+  @include btn;
+  border-color: $veryDarkViolet;
+  color: $veryDarkViolet;
+  &:hover{
+    background-color: $veryDarkViolet;
+    color: white;
+  }
+}

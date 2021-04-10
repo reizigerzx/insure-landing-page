@@ -1,0 +1,51 @@
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.block {
+  display: block;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+
+@mixin flex {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+.align-center{}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.flex-section {
+  @include flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+}
+
+.flex-container {
+  @include flex;
+  max-width: $desktopWidth;
+  flex-grow: 1;
+}
+
+.align-center {
+  align-items: center;
+}
